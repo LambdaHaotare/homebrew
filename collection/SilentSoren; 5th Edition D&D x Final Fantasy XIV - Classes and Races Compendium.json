@@ -75,13 +75,6 @@
 					}
 				},
 				{
-					"name": "Machinist Item Costs",
-					"ordinal": {
-						"type": "appendix",
-						"identifier": "A"
-					}
-				},
-				{
 					"name": "Naming Info",
 					"ordinal": {
 						"type": "appendix",
@@ -643,102 +636,6 @@
 			"name": "Viera",
 			"page": 24,
 			"source": "FFXIV"
-		}
-	],
-	"table": [
-		{
-			"name": "Machinist Item Costs",
-			"source": "FFXIV",
-			"page": 112,
-			"outro": [
-				"The Machinist doesn't have access to weapons with the reload properties due to the relative strength of them as a weapon. Ask your DM about making use of these weapons in your campaign. I suggest avoiding them."
-			],
-			"colLabels": [
-				"Item",
-				"Cost",
-				"Damage",
-				"Weight",
-				"Properties"
-			],
-			"colStyles": [
-				"col-2 text-center",
-				"col-1",
-				"col-2",
-				"col-1",
-				"col-6"
-			],
-			"rows": [
-				[
-					"{@item Pistol|DMG}",
-					"250gp",
-					"{@dice 1d10} piercing",
-					"3lb.",
-					"Ammunition (range 30ft./90ft.), loading"
-				],
-				[
-					"{@item Revolver|DMG}",
-					"-",
-					"{@dice 2d8} piercing",
-					"3lb.",
-					"Ammunition (range 40ft./120ft.), reload (6 shots)"
-				],
-				[
-					"{@item Musket|DMG}",
-					"500gp",
-					"{@dice 1d12} piercing",
-					"10lb.",
-					"Ammunition (range 40ft./120ft.), loading, two-handed"
-				],
-				[
-					"{@item Renaissance Bullets (10)|DMG|Bullets (10)}",
-					"3gp",
-					"",
-					"2lb.",
-					""
-				],
-				[
-					"Sounding Sentry",
-					"50gp",
-					"",
-					"1lb.",
-					""
-				],
-				[
-					"Emergency Rescue",
-					"150gp",
-					"",
-					"1lb.",
-					""
-				],
-				[
-					"Cloaking Device",
-					"500gp",
-					"",
-					"1lb.",
-					""
-				],
-				[
-					"Gauss Barrel",
-					"50gp",
-					"",
-					"1lb.",
-					""
-				],
-				[
-					"Hawkeye Goggles",
-					"50gp",
-					"",
-					"1lb.",
-					""
-				],
-				[
-					"Sensory Input Headpiece",
-					"50gp",
-					"",
-					"1lb.",
-					""
-				]
-			]
 		}
 	],
 	"variantrule": [
@@ -5200,6 +5097,57 @@
 			"page": 45,
 			"spellcastingAbility": "int",
 			"preparedSpells": "<$level$> + <$int_mod$>",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							{
+							"all": "level=1|class=Blue Mage"
+							}
+						],
+						"3": [
+							{
+							"all": "level=2|class=Blue Mage"
+							}
+						],
+						"5":  [
+							{
+							"all": "level=3|class=Blue Mage"
+							}
+						],
+						"7": [
+							{
+							"all": "level=4|class=Blue Mage"
+							}
+						],
+						"9": [
+							{
+							"all": "level=5|class=Blue Mage"
+							}
+						],
+						"11": [
+							{
+							"all": "level=6|class=Blue Mage"
+							}
+						],
+						"13": [
+							{
+							"all": "level=7|class=Blue Mage"
+							}
+						],
+						"15": [
+							{
+							"all": "level=8|class=Blue Mage"
+							}
+						],
+						"17": [
+							{
+							"all": "level=5|class=Blue Mage"
+							}
+						]
+					}
+				}
+			],
 			"shortName": "Lore Keeper",
 			"subclassFeatures": [
 				"Lore Keeper|Blue Mage|FFXIV|Lore Keeper|FFXIV|1",
@@ -5218,6 +5166,57 @@
 			"shortName": "Fell Guard",
 			"spellcastingAbility": "wis",
 			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							{
+							"all": "level=1|class=Blue Mage"
+							}
+						],
+						"3": [
+							{
+							"all": "level=2|class=Blue Mage"
+							}
+						],
+						"5":  [
+							{
+							"all": "level=3|class=Blue Mage"
+							}
+						],
+						"7": [
+							{
+							"all": "level=4|class=Blue Mage"
+							}
+						],
+						"9": [
+							{
+							"all": "level=5|class=Blue Mage"
+							}
+						],
+						"11": [
+							{
+							"all": "level=6|class=Blue Mage"
+							}
+						],
+						"13": [
+							{
+							"all": "level=7|class=Blue Mage"
+							}
+						],
+						"15": [
+							{
+							"all": "level=8|class=Blue Mage"
+							}
+						],
+						"17": [
+							{
+							"all": "level=5|class=Blue Mage"
+							}
+						]
+					}
+				}
+			],
 			"subclassFeatures": [
 				"Fell Guard|Blue Mage|FFXIV|Fell Guard|FFXIV|1",
 				"Monstrous Vanguard|Blue Mage|FFXIV|Fell Guard|FFXIV|3",
@@ -5234,6 +5233,57 @@
 			"page": 45,
 			"spellcastingAbility": "cha",
 			"preparedSpells": "<$level$> + <$cha_mod$>",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							{
+							"all": "level=1|class=Blue Mage"
+							}
+						],
+						"3": [
+							{
+							"all": "level=2|class=Blue Mage"
+							}
+						],
+						"5":  [
+							{
+							"all": "level=3|class=Blue Mage"
+							}
+						],
+						"7": [
+							{
+							"all": "level=4|class=Blue Mage"
+							}
+						],
+						"9": [
+							{
+							"all": "level=5|class=Blue Mage"
+							}
+						],
+						"11": [
+							{
+							"all": "level=6|class=Blue Mage"
+							}
+						],
+						"13": [
+							{
+							"all": "level=7|class=Blue Mage"
+							}
+						],
+						"15": [
+							{
+							"all": "level=8|class=Blue Mage"
+							}
+						],
+						"17": [
+							{
+							"all": "level=5|class=Blue Mage"
+							}
+						]
+					}
+				}
+			],
 			"shortName": "Whalaqee",
 			"subclassFeatures": [
 				"Whalaqee|Blue Mage|FFXIV|Whalaqee|FFXIV|1",
@@ -11981,12 +12031,6 @@
     			"Weird"
 			],
 			"cantripProgression": [
-				2,
-				2,
-				2,
-				3,
-				3,
-				3,
 				3,
 				3,
 				3,
@@ -11996,11 +12040,17 @@
 				4,
 				4,
 				4,
-				4,
-				4,
-				4,
-				4,
-				4
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
 			],
 			"hasFluff": true
 		},
@@ -13332,7 +13382,7 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Dragoon|FFXIV|4",
-                "ExtraAttack|Dragoon|FFXIV|5",
+                "Extra Attack|Dragoon|FFXIV|5",
                 "Stall|Dragoon|FFXIV|6",
                 "True Thrust|Dragoon|FFXIV|6",
 				{
@@ -17990,19 +18040,19 @@
 					"name": "Spellcasting Ability",
 					"type": "entries",
 					"entries": [
-						"Wisdom is your spellcasting ability for your Sage spells. The power of your spells comes from your understanding of astrological powers. You use your Wisdom whenever an Sage spell refers to your spellcasing ability. In addition, you use your Wisdom modifier when setting the saving throw DC for an Sage spell you cast and when making an attack roll with one.",
+						"Intelligence is your spellcasting ability for your Sage spells. The power of your spells comes from your understanding of astrological powers. You use your Wisdom whenever an Sage spell refers to your spellcasing ability. In addition, you use your Wisdom modifier when setting the saving throw DC for an Sage spell you cast and when making an attack roll with one.",
 						{
 							"type": "abilityDc",
 							"name": "Spell",
 							"attributes": [
-								"wis"
+								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
 							"name": "Spell",
 							"attributes": [
-								"wis"
+								"int"
 							]
 						}
 					]
@@ -20108,7 +20158,7 @@
 			]
 		},
         {
-			"name": "ExtraAttack",
+			"name": "Extra Attack",
 			"source": "FFXIV",
 			"className": "Dragoon",
 			"classSource": "FFXIV",
@@ -26595,6 +26645,7 @@
 			"classSource": "FFXIV",
 			"subclassShortName": "Lore Keeper",
 			"subclassSource": "FFXIV",
+			"spellcastingAbility": "int",
 			"level": 1,
 			"entries": [
 				"Studious and thorough, the Lore Keepers are experts at noting details and learning about creatures of all shapes and sizes. Capable of understanding one's nature at a glance, they can both help their allies strategize, and rapidly understand the deeper details of their foes",
@@ -26715,6 +26766,7 @@
 			"classSource": "FFXIV",
 			"subclassShortName": "Fell Guard",
 			"subclassSource": "FFXIV",
+			"spellcastingAbility": "wis",
 			"level": 1	,
 			"header": 2,
 			"entries": [
@@ -26876,6 +26928,7 @@
 			"classSource": "FFXIV",
 			"subclassShortName": "Whalaqee",
 			"subclassSource": "FFXIV",
+			"spellcastingAbility": "cha",
 			"level": 1,
 			"entries": [
 				"The Whalaqee are known in many scholarly circles as the original creators of blue magic. Hailing from the land known as 'The New World' the Whalaqee's magic was noted as strange to visitors from afar, using their aether to mimic the strength of monsters and unleash their power. The Whalaqee are a people who live in harmony with nature and use what they view as the strength of the natural world to defend it.",
@@ -30617,6 +30670,26 @@
 			]
 		},
 		{
+			"name": "Sahagin Set",
+			"source": "FFXIV",
+			"page": 97,
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5
+					}
+				}
+			],
+			"entries": [
+				"Complexity Tier: Tier 2 Invention",
+				"Battery Usage: 10 minutes (1 charge per minute of use)",
+				"A set of gear used to improve mobility in the water and a mask which takes advantage of the aether battery to produce fresh air from your breath. While active, the wearer gains a swim speed equal to their movement speed and is able to hold their breath for 1 hour."
+			],
+			"featureType": [
+				"MCH:IN"
+			]
+		},
+		{
 			"name": "Remote Control Unit",
 			"source": "FFXIV",
 			"page": 97,
@@ -30760,7 +30833,7 @@
 			]
 		},
 		{
-			"name": "Cloaking Stave",
+			"name": "Drill",
 			"source": "FFXIV",
 			"page": 97,
 			"prerequisite": [
@@ -30772,7 +30845,7 @@
 			],
 			"entries": [
 				"Complexity Tier: Tier 3 Invention",
-				"Battery Usage: 1 minute (1 charge per round)",
+				"Battery Usage: 10 attacks (1 charge per attack)",
 				"As an action this device spins aether at a rapid speed forming a piercing drill of aether and launching it at a target within 60 ft. of the user. The target creature makes a Dexterity saving throw with disadvantage against your Tech save DC, taking 3d12 force damage on a failure."
 			],
 			"featureType": [
@@ -30841,7 +30914,7 @@
 			]
 		},
 		{
-			"name": "Proximity Lightning Mine",
+			"name": "Trailblazer",
 			"source": "FFXIV",
 			"page": 97,
 			"prerequisite": [
@@ -30936,7 +31009,7 @@
 					"level": {
 						"level": 2
 					},
-					"item": [ "Scholar"
+					"item": [ "Arcanist"
 				]
 				}
 			],
@@ -30957,7 +31030,7 @@
 					"level": {
 						"level": 2
 					},
-                    "item": [ "Scholar"
+                    "item": [ "Arcanist"
 				]
 				}
 			],
@@ -30979,7 +31052,7 @@
 					"level": {
 						"level": 6
 					},
-					"item": [ "Scholar"
+					"item": [ "Arcanist"
 				]
 				}
 			],
@@ -31280,7 +31353,7 @@
 						"level": 2
 						
 					},
-					"item": [ "Scholar"
+					"item": [ "Arcanist"
 				]
 					
 				}
